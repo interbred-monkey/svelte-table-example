@@ -1,0 +1,14 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "target": "es2019",
+    "types": ["svelte"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "typeRoots": ["./src/definitions", "./node_modules/@types"],
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
+}
